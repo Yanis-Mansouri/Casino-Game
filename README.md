@@ -4,7 +4,7 @@ from random import randint
 cash=100
 
 while cash>0:
-    rnb= 10
+    rnb= random.randint(0,49)
     mise=int(input("mise: "))
     numberchoose=int(input("nombre:" ))
     if rnb==numberchoose:
